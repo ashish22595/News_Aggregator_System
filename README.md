@@ -9,6 +9,7 @@ Fetched RSS feed from various news sites.
 Designed UI and established database connection from MonngooseDb(Atlas).
 
 Role-Devops 
+
 1.Designed and maintained pipeline for the development of news aggregator system from version control to continuous Integration to Continuous deployment to maintainance.
 
 2.Created SCM polling for automatic fetching in Jenkins pipeline with stages-(Fetch,compile,Build,Test,Push).
