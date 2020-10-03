@@ -1,6 +1,6 @@
 # My first docker file.
  FROM node:11-alpine
- MAINTAINER Shubham Kumar (XXXXXX@gmail.com)
+ MAINTAINER Ashish Kumar (XXXXXX@gmail.com)
 
  # RUN commands inside BASE IMAGE
 RUN mkdir -p /var/www 
@@ -8,7 +8,7 @@ RUN apk add --no-cache git
 RUN apk add --no-cache openssh
 
 #CLONE git repo inside BASE IMAGE
-RUN git clone https://github.com/Amitesh591/news_aggregator_system_1.git /myapp/
+RUN git clone https://github.com/ashish22595/news_aggregator_system_1.git /myapp/
 
 #COPY cloned repo inside BASE IMAGE to another directory at BASE IMAGE
 RUN cp -R /myapp/* /var/www
